@@ -1,0 +1,49 @@
+# ─── Datos sensibles ──────────────────────────────────────────────────────────
+.env
+
+# ─── Entorno virtual Python ───────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Descargas temporales del bot ─────────────────────────────────────────────
+downloads/
+temp_downloads/
+
+# ─── Build / distribución (PyInstaller) ───────────────────────────────────────
+build/
+dist/
+*.spec
+
+# ─── Caché Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ─── Huevos y paquetes instalados ─────────────────────────────────────────────
+*.egg
+*.egg-info/
+dist/
+eggs/
+.eggs/
+
+# ─── Pytest / Coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─── IDEs y editores ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*~
+
+# ─── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

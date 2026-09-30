@@ -1,2 +1,2 @@
-# BookBot
-Búsqueda de libros por medio de un Bot de Telegram
+python-telegram-bot==20.7
+requests
